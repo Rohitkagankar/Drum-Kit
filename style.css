@@ -18,17 +18,18 @@ h1{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-    margin: 0 100px;
+    margin: 200px 100px;
 }
 button{
     width: 150px ;
     height: 150px;
     font-size: 80px;
-    margin-top: 150px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 2px solid blueviolet;
-    
+    border: 10px solid rgb(156, 115, 194);
+    border-radius: 20px;
+    color: #ff00e1;
+    text-decoration: solid;
+
 }
 footer{
     position: absolute;
@@ -56,4 +57,8 @@ footer{
 }
 .l{
     background-image: url(./images/kick.png);
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 #ff0000;
+    opacity: 0.5;
 }
