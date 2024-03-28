@@ -1,11 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    
+    background: #4a145e;
 }
 h1{
     font-size: 68px;
     min-inline-size: 20px;
+    color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
     text-shadow: 2px 2px 1px #ff0000;
     font-weight: bold;
@@ -25,4 +26,34 @@ button{
     height: 150px;
     font-size: 80px;
     margin-top: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid blueviolet;
+    
+}
+footer{
+    position: absolute;
+    bottom: 40px;
+    left: 45%;
+    color: blueviolet;
+}
+.w{
+    background-image: url(./images/tom1.png);
+}
+.a{
+    background-image: url(./images/tom2.png);
+}
+.s{
+    background-image: url(./images/tom3.png);
+}
+.d{
+    background-image: url(./images/tom4.png);
+}
+.j{
+    background-image: url(./images/snare.png);
+}
+.k{
+    background-image: url(./images/crash.png);
+}
+.l{
+    background-image: url(./images/kick.png);
 }
