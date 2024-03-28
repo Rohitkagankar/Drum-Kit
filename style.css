@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    font-size: 68px;
+    min-inline-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 1px #ff0000;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+}
+.set{
+    display: flex;;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    margin: 0 100px;
+}
+button{
+    width: 150px ;
+    height: 150px;
+    font-size: 80px;
+    margin-top: 150px;
+}
